@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Independent Film Catalog</title>
+    <link rel="stylesheet" href="style.css"> </head>
+<body>
+    <header>
+        <h1>Independent Film Catalog</h1>
+    </header>
+
+    <section class="featured-film">
+        <h2>Featured Film</h2>
+        <div class="carousel">
+            </div>
+        <div class="film-info">
+            <h3>Title</h3>
+            <p>Year | Genre</p>
+            <p>Short introduction about the film.</p>
+            <p>**Synopsis:** More detailed description of the film's plot.</p>
+            <iframe src="path/to/teaser.mp4" title="Teaser Trailer" frameborder="0" allowfullscreen></iframe>
+            <div class="film-stills">
+                <h4>Movie Stills</h4>
+                <img src="image1.jpg" alt="Film Still 1">
+                <img src="image2.jpg" alt="Film Still 2">
+                <img src="image3.jpg" alt="Film Still 3">
+                <img src="image4.jpg" alt="Film Still 4">
+            </div>
+        </div>
+    </section>
+
+    <section class="production">
+        <h2>Production</h2>
+        <h3>Pre-Production</h3>
+        <ul>
+            <li>Director: Name</li>
+            <li>Writer: Name</li>
+            <li>Casting Director: Name</li>
+            </ul>
+        <h3>General Production</h3>
+        <ul>
+            <li>Production Company: Name</li>
+            <li>Cinematographer: Name</li>
+            </ul>
+        <h3>Post-Production</h3>
+        <ul>
+            <li>Editor: Name</li>
+            <li>Composer: Name</li>
+            </ul>
+    </section>
+
+    <section class="distribution">
+        <h2>Distribution</h2>
+        <p>Information about film distribution channels (theatrical, streaming, etc.)</p>
+    </section>
+
+    <section class="merchandise">
+        <h2>Merchandise</h2>
+        <div class="featured-products">
+            <h3>Featured Products</h3>
+            <div class="product">
+                <img src="product1.jpg" alt="Product 1">
+                <p>Product Name</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="product2.jpg" alt="Product 2">
+                <p>Product Name</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+        <p>See more merchandise <a href="#">here</a></p>
+    </section>
+
+    <section class="cart">
+        <h2>Your Cart</h2>
+        </section>
+
+    <footer>
+        <p>&copy; Copyright 2024</p>
+    </footer>
+</body>
+</html>
