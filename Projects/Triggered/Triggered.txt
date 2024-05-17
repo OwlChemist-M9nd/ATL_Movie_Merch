@@ -1,0 +1,74 @@
+Title: Triggered
+
+Year: 2024
+
+Poster1: website cover.png
+
+Poster2: Movie Poster.png
+
+Banner: website img.png
+
+Stills:
+
+Merch Design.png
+4.png
+
+Introduction:
+Triggered is a short film focused on the horrors experienced by people with untreated and undiagnosed mental illness...
+
+Description:
+Imagine a face, frozen in a perpetual grin. Not the radiant joy of a genuine smile, but a mask - stretched thin, painted over an abyss of darkness. 
+
+This is Devin, our protagonist, a new hire for a landscaping company. When Devin first meets James, coworker, he notices how radiant of a person he is and how he lights up every room he walks in. What first seems like a workplace fascination suddenly turns into a dark twisted obsession that leads Devin down memory lane. What we soon find out is that Devin is caught in the grip of an invisible storm: untreated and undiagnosed mental illness.
+
+TRIGGERED isn't just one stand alone story, it is ONE story of the NUMB SERIES. We believe with every fiber that stories hold the power to illuminate and heal the wounds we hide.
+
+
+The short film "TRIGGERED" is focused on the horrors experienced by people with untreated and undiagnosed mental illness.
+
+Be Kind. For everyone you meet is fighting a battle you know nothing about...
+
+-PLATO
+
+Actors:
+
+Leslie Sawyer (Aunt Jae)
+Asha Imani (Jeanie)
+Michael D. Williams (Tom)
+James Pitt (Devin)
+Stanley Williams (James)
+
+Actors Pics:
+Leslie Sawyer-Aunt Jae.jpeg
+Asha Imani-Jeanie.jpeg
+Michael D. Williams.jpeg
+James Pitts-Devin.jpeg
+
+Writer:
+Stanley Williams
+
+Writer Pic: stanley williams_crew.png
+
+Director:
+Khiray Richards
+
+Director Pic:
+khiray richards_crew.png
+
+Production Crew:
+
+Co-Executive Producer: Stanley Williams
+Co-Executive Producer: Joseph Lockett
+Co-Executive Producer: Hattie Lemon
+
+Production Crew:
+
+stanley williams_crew.png
+Joseph Lockett_crew.jpg
+hattie lemon_crew.png
+
+Note:
+
+Replace the bracketed text with your actual information (poster and still image filenames, names of actors, crew members, etc.).
+This is a basic example. You can add additional sections or modify it to fit your specific needs.
+Consider separating sections with a blank line or a different delimiter for better readability.
