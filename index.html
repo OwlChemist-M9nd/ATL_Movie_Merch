@@ -3,44 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Independent Film Catalog</title>
+    <title>Atlanta Movie Merch</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h3>How can we help YOU fund YOUR Project?</h3>
+        <h3 id="proposal">How can we help YOU fund YOUR Project?</h3>
         <hr>
         <h1>Atlanta Movie Merch</h1>
     </header>
+    <nav>
+        <ul class="navbar">
+            <li><a href="projects.html">Project Library</a></li>
+                <li class="dropdown"><a href="javascript:void(0)" class="dropbtn">Directories</a>
+                    <div class="dropdown-content">
+                        <a href="artists.html">Artists</a>
+                        <a href="makers.html">Makers</a>
+                    </div>
+                </li>
+            <li><a href="stores.html">Stores</a></li>
+            <li><a href="about_us.html">About Us</a></li>
+            <li><a href="sign_in.html">Sign-In</a></li>
+        </ul>
+    </nav>
     <main>
         <!-- Featured Film Carousel -->
         <section id="featured-film">
-            <h2 name="Feature-Length">The Feature Length of the Month is...</h2>
+            <h2 name="Feature-Length">The Feature Length of the Month is: </h2>
             <div class="carousel">
                 <!-- Carousel items will be dynamically populated -->
             </div>
         </section>
 
         <!-- Movie Introduction -->
-        <section id="movie-introduction">
-            <h2>It's About-</h2>
+        <section id="feature-film-introduction">
+            <h2>It's About: </h2>
             <p>This is where the introduction text will go.</p>
+        </section>
+
+         <!-- Trailer Video -->
+         <section id="teaser-video">
+            <h2>Trailer Video</h2>
+            <video controls>
+                <!-- Add your teaser video source here -->
+                <source src="path_to_teaser_video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
         </section>
 
         <!-- Synopsis -->
         <section id="synopsis">
             <h2>Synopsis</h2>
             <p>This is where the synopsis of the movie will go.</p>
-        </section>
-
-        <!-- Teaser Video -->
-        <section id="teaser-video">
-            <h2>Teaser Video</h2>
-            <video controls>
-                <!-- Add your teaser video source here -->
-                <source src="path_to_teaser_video.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
         </section>
 
         <!-- Movie Stills -->
@@ -55,17 +69,21 @@
             </div>
         </section>
 
-        <!-- Production Company Directory -->
-        <section id="production-company">
-            <h2>Production Company Directory</h2>
-            <!-- Add sections for pre-production, general production, and post-production -->
-        </section>
+        <nav>
+            <ul class="navbar">
+                <li class="dropdown"><a href="javascript:void(0)" class="dropbtn">Directories</a>
+                    <div class="dropdown-content">
+                        <a href="artists.html">Artists</a>
+                        <a href="makers.html">Makers</a>
+                    </div>
+                </li>
+                <li><a href="union_directory.html">Unions</a></li>
+                <li><a href="in_progress.html">Projects In-Progress</a></li>
+            </ul>
+        </nav>
 
-        <!-- Distribution Directory -->
-        <section id="distribution">
-            <h2>Distribution Directory</h2>
-            <!-- Add distribution information here -->
-        </section>
+        <!-- Distribution Directory: Not needed at the moment. Add at a later date-->
+        <!-- Add distribution information here -->
 
         <!-- Merchandising -->
         <section id="merchandising">
