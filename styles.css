@@ -1,0 +1,167 @@
+/* General Styles */
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+html {
+    height: 100%;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    padding: 1em 0;
+}
+
+nav a {
+    background-color: #555; /* Darker grey color for buttons */
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+nav a:hover {
+    background-color: #777; /* Lighter grey on hover */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1em;
+}
+
+nav ul li a {
+    background-color: #555;
+    color: rgb(14, 5, 5);
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    text-shadow: 
+        -0.5px -1px 0 #48ff00,  
+         0.5px -1px 0 #48ff00,
+        -0.5px  0.5px 0 #eeff00,
+         0.5px  0.5px 0 #eeff00;
+}
+
+/* Main Content Styles */
+main {
+    flex: 1;
+    padding: 2em;
+    background: linear-gradient(to bottom, #000000, #4444447e 40%, #ffffff9c 50%, #4444447e 60%, #000000);
+    color: #eeff00; /* Gold/yellow color for text */
+    text-shadow: 
+        -1px -1px 0 #57015a83,  
+         1px -1px 0 #57015a83,
+        -1px  1px 0 #000,
+         1px  1px 0 #000; /* Black border effect */
+}
+
+container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    min-height: auto;
+    margin: 0;
+    padding: 5px 5px;
+}
+
+.footer p {
+    margin: 0;
+    padding: 5px 5px;
+    line-height: 1.2;
+    font-size: 12px;
+    white-space: pre-line;
+}
+
+.footer a {
+    color: #1f2ce9e8;
+    text-decoration: underline;
+}
+
+.footer a:hover {
+    color: #ffcc00;
+}
+
+/* Dropdown Styles */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 0.5em;
+}
+
+input, textarea, button {
+    margin-bottom: 1em;
+    padding: 0.5em;
+}
+
+.feature-film-introduction p, .synopsis p {
+    font-weight: bold;
+}
